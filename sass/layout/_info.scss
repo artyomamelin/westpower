@@ -1,0 +1,19 @@
+.info {
+    &__list {
+        list-style: none;
+        margin-bottom: 2rem;
+        &-item {
+            margin-bottom: .7rem;
+            font-size: .9rem; 
+
+            &:hover {
+                color: red;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__warning {
+        line-height: 1.7rem;
+    }
+}

@@ -1,0 +1,42 @@
+.center-flex {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.big-red-text {
+    color: $color-secondary;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.button-red {
+    background-color: $color-secondary;
+    color: $color-white;
+
+    &:hover {
+        color: $color-black;
+        cursor: pointer;
+    }
+}
+
+.button-yellow {
+    background-color: #f1e621;
+    color: $color-black;
+
+    &:hover {
+        color: $color-white;
+        cursor: pointer;
+    }
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+}
+
+.back-grey {
+    background-color: $color-grey;
+}

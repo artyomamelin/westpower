@@ -1,0 +1,50 @@
+.footer {
+
+    &__logo {
+        margin: 2rem 0;
+        height: 5rem;
+        width: 95%;
+        background: url(../../img/logo-footer.jpg);
+
+    }
+
+    &__menu {
+        background: url(../../img/footer-bg.png);
+        height: 12rem;
+        padding-top: 1.5rem;
+    }
+
+    &__list {
+        list-style: none;
+        font-weight: bold;
+
+        &-item {
+            margin-bottom: .5rem;
+        }
+    }
+}
+
+.rights {
+    margin: 12rem 35rem;
+    line-height: 1.5rem;
+}
+
+.bottom-menu {
+    display: flex;
+    align-content: center;
+
+    &-1 {
+        display: inline-block;
+        width: 49%;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    &-2 {
+        display: inline-block;
+        width: 49%;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+}

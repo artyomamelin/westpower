@@ -1,0 +1,36 @@
+.section {
+    
+    &-carousel {
+        margin: 2rem 35rem;
+        height: 35rem;
+    }
+
+    &__categories {
+        margin: 0 35rem; 
+        height: 40rem;
+    }
+
+    &__lider {
+        margin: 0 35rem;
+        height: 60rem;
+    }
+
+    &__new {
+        margin: 0 35rem;
+        height: 46rem;
+    }
+
+    &__offer {
+        margin: 0 35rem; 
+        height: 40rem;
+    }
+
+    &__faq {
+        margin: 0 35rem;
+        margin-bottom: 10rem;
+    }
+
+    &__info {
+        margin: 5rem 35rem;
+    }
+}

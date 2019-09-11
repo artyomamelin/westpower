@@ -1,0 +1,75 @@
+.lider {
+    &__heading {
+        margin-bottom: 2rem;
+
+        &-button{
+            border: none;
+            background-color: $color-secondary;
+            width: 35rem;
+            height: 7rem;
+            border-radius: .5rem;
+            text-transform: uppercase;
+            font-weight: 100;
+            font-size: 2.3rem;
+            color: $color-white;
+
+            &-2 {
+                background-color:#f1e621;
+                color: $color-black;    
+            }
+        }
+    }
+
+    &__carousel {
+        height: 35rem;
+
+        &__card {
+            height: 33rem !important;
+            margin: 1rem;
+            background-color: $color-white;
+            border-radius: .5rem;
+            border: 1px solid $color-black;
+        }
+
+        &__item {
+            display:flex;
+            overflow: hidden;
+            flex-wrap: wrap;
+            align-content: center;
+
+            &-heading {
+                text-transform: uppercase;
+                margin: 1rem auto;
+                text-align: center;
+            }
+
+            &-photo {
+                margin: 0 auto;
+                height: 15rem;
+            }
+
+            &-price {
+                margin: 1rem auto;
+                font-size: 1.2rem;
+            }
+
+
+            &-button {
+                width: 60%;
+                height: 2.5rem;
+                border: none;
+                font-size: 1.2rem;
+                text-transform: uppercase;
+                border-radius: .5rem;
+                margin: .5rem auto;
+            }
+        }
+    }
+
+    &__desc {
+        font-size: 1.8rem;
+        font-weight: 100;
+        margin-top: 3rem;
+        letter-spacing: .3rem;
+    }
+}

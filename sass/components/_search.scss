@@ -1,0 +1,43 @@
+.search {
+    &-bar {
+        width:87%;
+        height: 4.5rem;
+        border-radius: .7rem;
+        background-color: $color-grey-light;
+        font-size: 2.5rem;
+        padding-left: 1rem;
+
+        &::placeholder {
+            color: $color-grey;
+            font-weight: bold;
+        }
+
+        &_icon {
+            background-image: url(../img/search.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            right: 14%;
+            position: absolute;
+            margin-top: 1rem;
+            pointer-events: none;
+            height: 2.5rem;
+            width: 2.5rem;
+            z-index: 3;
+        }
+    }
+
+    &-btn {
+        position: relative;
+        float: right;
+        height: 4.5rem;
+        width: 12%;
+        text-transform: uppercase;
+        background-color: red;
+        border-radius: .7rem;
+        border: none;
+        color: $color-white;
+        cursor: pointer;
+
+
+    }
+}

@@ -1,0 +1,95 @@
+.navigation {
+
+    &__nav {
+        position: relative;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        height: 5rem;
+        padding-top: 1.5rem;
+    }
+
+    &__item {
+        position: relative;
+        display: flex;
+        padding: 0 1.7rem;
+        align-content: center;
+        &:before,
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: 1.5rem;
+          width: 0px;
+          height: .1rem;
+          margin: .5rem 0 0;
+          transition: $animation-small;
+          opacity: 0;
+          left: 0;
+          background-color: $color-white;
+        }
+
+        &:hover {
+                &:before,
+                &:after {
+                  width: 100%;
+                  opacity: 1;
+                }
+            }
+        }
+    
+    
+    &__link {
+
+            transition: all .5s;
+
+            &:link,
+            &:visited {
+                display: inline-block;
+                color: $color-white;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 1rem;
+            }
+    }
+
+    &__item-2 {
+        position: relative;
+        display: flex;
+        padding: 0 1.7rem;
+        align-content: center;
+        &:before,
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: 1.5rem;
+          width: 0px;
+          height: .1rem;
+          margin: .5rem 0 0;
+          transition: $animation-small;
+          opacity: 0;
+          left: 0;
+          background-color: #d5af4f;
+        }
+        
+        &:hover {   
+                &:before,
+                &:after {
+                  width: 100%;
+                  opacity: 1;
+                }
+            }
+        }
+    
+    &__item-2:hover  &__link {
+            color: #d5af4f;
+            &:link,
+            &:visited {
+            color: #d5af4f;
+            }
+    }
+}

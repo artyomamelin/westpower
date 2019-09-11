@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <title>Текстильторг</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="row">
+            <div class="city">
+                <img src="img/city-marker.png" alt="" class="city-icon">
+                <p class="city-chosen">Москва</p>
+                <p class="city-choose">Ваш город</p>
+            </div>
+
+            <div class="logo">
+                <img src="img/logo-big.png" alt="" class="logo-head">
+            </div>
+
+            <div class="cart">
+                <img src="img/cart.png" alt="" class="cart-icon">
+                <p class="cart-head">в корзине</p>
+                <p class="cart-items">пусто</p>
+            </div>
+        </div>
+            <div class="search row">
+                    <input type="text" class="search-bar" placeholder="поиск">
+                    <i class="search-bar_icon"></i>
+                    <button class="search-btn">найти</button>
+            </div>
+
+            <div class="navigation">
+                <nav class="navigation__nav">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="#" class="navigation__link">о нас</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">акции и скидки</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">полезное</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">гарантия</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">доставка</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">оплата</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">наши магазины</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <nav class="submenu">
+        <div class="submenu__bg"><div class="submenu__bg-2"></div></div>
+        <div class="submenu__wrapper row">
+            <div class="col-1-of-3 center-flex">
+                <button class="submenu__catalogue">
+                    <img src="../img/catalog-icon.png" alt="" class="submenu__catalogue-icon">
+                    <span class="submenu__catalogue-text">каталог товаров</span>
+                </button>
+            </div>
+            <div class="col-1-of-3 ">
+                <ul class="submenu__list">
+                    <li class="submenu__list-item">
+                        <i class="submenu__list-item-icon submenu__list-item-icon--1"></i>
+                        <span class="submenu__list-item-text">мессенджеры</span>
+                    </li>
+                    <li class="submenu__list-item">
+                        <i class="submenu__list-item-icon submenu__list-item-icon--2"></i>
+                        <span class="submenu__list-item-text">онлайн-консультант</span>
+                    </li>
+                    <li class="submenu__list-item">
+                        <i class="submenu__list-item-icon submenu__list-item-icon--3"></i>
+                        <span class="submenu__list-item-text">обратный звонок</span>
+                    </li>
+                 </ul>
+            </div>
+            <div class="col-1-of-3 ">
+                <button class="submenu__phone">
+                    <img src="../img/order-consult-icon.png" alt="" class="submenu__catalogue-icon">
+                    <span class="submenu__phone-text-1">8&nbsp;(800)&nbsp;333-71-83</span>
+                    <span class="submenu__phone-text-2">(Заказ консультация - круглосуточно)</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section-carousel">
+            <div class="carousel single-item">
+                    <div class="carousel__item">
+                        <div class="carousel__item-text">
+                            <div class="carousel__item-text-heading"><span>Консультации, сравнения, тест-драйвы</span></div>
+                            <div class="carousel__item-text-paragraph"><p>Демонстрация товаров в работе, их сравнение<br> и обучение - совершенно <span class="big-red-text">бесплатно,</span><br>в наших магазинах!</p></div>
+                        </div>
+                        <div class="carousel__item-photo"></div>
+                    </div>
+                    <div class="carousel__item">
+                        <div class="carousel__item-text">
+                                <div class="carousel__item-text-heading"><span>Консультации, сравнения, тест-драйвы</span></div>
+                                <div class="carousel__item-text-paragraph"><p>Демонстрация товаров в работе, их сравнение<br> и обучение - совершенно <span class="big-red-text">бесплатно,</span><br>в наших магазинах!</p></div>
+                        </div>
+                        <div class="carousel__item-photo">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel__item">
+                            <div class="carousel__item-text">
+                                    <div class="carousel__item-text-heading"><span>Консультации, сравнения, тест-драйвы</span></div>
+                                    <div class="carousel__item-text-paragraph"><p>Демонстрация товаров в работе, их сравнение<br> и обучение - совершенно <span class="big-red-text">бесплатно,</span><br>в наших магазинах!</p></div>
+                            </div>
+                            <div class="carousel__item-photo">
+                                    
+                            </div>
+                    </div>
+                  </div>
+    </section>
+
+    <section class="section__categories">
+        <h1 class="heading__primary">
+            <span class="heading__primary-text">популярные категории товаров</span>
+            <button class="heading__primary-button">весь каталог</button>
+        </h1>
+
+        <div class="categories">
+            <div class="row">
+                <div class="col-1-of-3">    
+                    <div class="categories__item">
+                        <img src="img/category-1.jpg" alt="" class="categories__item-icon">
+                        <div class="categories__item-text">
+                            <h2 class="heading__secondary">Все для шитья</h2>
+                            <ul class="categories__item-menu">
+                                <li class="categories__item-menu-list">Швейные машины</li>
+                                <li class="categories__item-menu-list">Оверлоки</li>
+                                <li class="categories__item-menu-list">Манекены</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="categories__item">
+                        <img src="img/category-2.jpg" alt="" class="categories__item-icon categories__item-icon-2">
+                        <div class="categories__item-text">
+                            <h2 class="heading__secondary">Все для вышивания</h2>
+                            <ul class="categories__item-menu">
+                                <li class="categories__item-menu-list">Вышивальные машины</li>
+                                <li class="categories__item-menu-list">Швейно-вышивальные машины</li>
+                                <li class="categories__item-menu-list">Принтеры по текстилю</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="categories__item">
+                        <img src="img/category-3.jpg" alt="" class="categories__item-icon">
+                        <div class="categories__item-text">
+                            <h2 class="heading__secondary">Все для вязания</h2>
+                            <ul class="categories__item-menu">
+                                <li class="categories__item-menu-list">Вязальные машины</li>
+                                <li class="categories__item-menu-list">Кеттельные машины</li>
+                                <li class="categories__item-menu-list">Ткацкие станки</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="categories__item">
+                        <img src="img/category-4.jpg" alt="" class="categories__item-icon">
+                        <div class="categories__item-text">
+                            <h2 class="heading__secondary">Все для глажения</h2>
+                            <ul class="categories__item-menu">
+                                <li class="categories__item-menu-list">Вышивальные машины</li>
+                                <li class="categories__item-menu-list">Швейно-вышивальные машины</li>
+                                <li class="categories__item-menu-list">Принтеры по текстилю</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="categories__item">
+                        <img src="img/category-5.jpg" alt="" class="categories__item-icon">
+                        <div class="categories__item-text">
+                            <h2 class="heading__secondary">Все для уборки</h2>
+                            <ul class="categories__item-menu">
+                                <li class="categories__item-menu-list">Пылесосы</li>
+                                <li class="categories__item-menu-list">Пароочистители</li>
+                                <li class="categories__item-menu-list">Паровые швабры</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="categories__item">
+                        <img src="img/category-6.jpg" alt="" class="categories__item-icon">
+                        <div class="categories__item-text">
+                            <h2 class="heading__secondary">Аксессуары и расходные материалы</h2>
+                            <ul class="categories__item-menu">
+                                <li class="categories__item-menu-list">Лапки, иглы, нити, фурнитуры</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__lider">
+        <div class="lider">
+            <div class="lider__heading">
+                <button class="lider__heading-button">лидеры продаж</button>
+            </div>
+            <div class="lider__carousel 4-items">
+                <div class="lider__carousel__card">
+                    <div class="lider__carousel__item">
+                        <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                        <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                        <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                        <button class="lider__carousel__item-button button-red">купить</button>
+                        <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                    </div>
+                </div>
+                <div class="lider__carousel__card">
+                    <div class="lider__carousel__item">
+                        <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                        <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                        <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                        <button class="lider__carousel__item-button button-red">купить</button>
+                        <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                    </div>
+                </div>
+                <div class="lider__carousel__card">
+                        <div class="lider__carousel__item">
+                            <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                            <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                            <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                            <button class="lider__carousel__item-button button-red">купить</button>
+                            <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                        </div>
+                    </div>
+                    <div class="lider__carousel__card">
+                        <div class="lider__carousel__item">
+                            <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                            <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                            <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                            <button class="lider__carousel__item-button button-red">купить</button>
+                            <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                        </div>
+                    </div>
+                    <div class="lider__carousel__card">
+                            <div class="lider__carousel__item">
+                                <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                                <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                <button class="lider__carousel__item-button button-red">купить</button>
+                                <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                            </div>
+                        </div>
+                        <div class="lider__carousel__card">
+                            <div class="lider__carousel__item">
+                                <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                                <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                <button class="lider__carousel__item-button button-red">купить</button>
+                                <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                            </div>
+                        </div>
+                        <div class="lider__carousel__card">
+                                <div class="lider__carousel__item">
+                                    <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                    <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                                    <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                    <button class="lider__carousel__item-button button-red">купить</button>
+                                    <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                </div>
+                            </div>
+                            <div class="lider__carousel__card">
+                                <div class="lider__carousel__item">
+                                    <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                    <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                                    <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                    <button class="lider__carousel__item-button button-red">купить</button>
+                                    <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                </div>
+                            </div>
+                            <div class="lider__carousel__card">
+                                    <div class="lider__carousel__item">
+                                        <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                        <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                                        <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                        <button class="lider__carousel__item-button button-red">купить</button>
+                                        <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                    </div>
+                                </div>
+                                <div class="lider__carousel__card">
+                                    <div class="lider__carousel__item">
+                                        <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                        <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                                        <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                        <button class="lider__carousel__item-button button-red">купить</button>
+                                        <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                    </div>
+                                </div>
+                                <div class="lider__carousel__card">
+                                        <div class="lider__carousel__item">
+                                            <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                            <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                                            <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                            <button class="lider__carousel__item-button button-red">купить</button>
+                                            <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                        </div>
+                                    </div>
+                                    <div class="lider__carousel__card">
+                                        <div class="lider__carousel__item">
+                                            <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                            <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                                            <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                            <button class="lider__carousel__item-button button-red">купить</button>
+                                            <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                        </div>
+                                    </div>
+            </div>
+            <div class="lider__desc">
+                <p class="lider__desc-paragraph">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum facilis perferendis aspernatur minus dicta enim consectetur quisquam obcaecati nulla? Magni, recusandae non! Deserunt accusamus illo eaque ad? Corrupti, neque adipisci?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__new">
+            <div class="lider">
+                <div class="lider__heading">
+                    <button class="lider__heading-button lider__heading-button-2">новинки</button>
+                </div>
+                <div class="lider__carousel 4-items">
+                    <div class="lider__carousel__card">
+                        <div class="lider__carousel__item">
+                            <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                            <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                            <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                            <button class="lider__carousel__item-button button-red">купить</button>
+                            <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                        </div>
+                    </div>
+                    <div class="lider__carousel__card">
+                        <div class="lider__carousel__item">
+                            <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                            <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                            <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                            <button class="lider__carousel__item-button button-red">купить</button>
+                            <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                        </div>
+                    </div>
+                    <div class="lider__carousel__card">
+                            <div class="lider__carousel__item">
+                                <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                                <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                <button class="lider__carousel__item-button button-red">купить</button>
+                                <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                            </div>
+                        </div>
+                        <div class="lider__carousel__card">
+                            <div class="lider__carousel__item">
+                                <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                                <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                <button class="lider__carousel__item-button button-red">купить</button>
+                                <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                            </div>
+                        </div>
+                        <div class="lider__carousel__card">
+                                <div class="lider__carousel__item">
+                                    <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                    <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                                    <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                    <button class="lider__carousel__item-button button-red">купить</button>
+                                    <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                </div>
+                            </div>
+                            <div class="lider__carousel__card">
+                                <div class="lider__carousel__item">
+                                    <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                    <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                                    <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                    <button class="lider__carousel__item-button button-red">купить</button>
+                                    <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                </div>
+                            </div>
+                            <div class="lider__carousel__card">
+                                    <div class="lider__carousel__item">
+                                        <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                        <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                                        <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                        <button class="lider__carousel__item-button button-red">купить</button>
+                                        <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                    </div>
+                                </div>
+                                <div class="lider__carousel__card">
+                                    <div class="lider__carousel__item">
+                                        <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                        <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                                        <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                        <button class="lider__carousel__item-button button-red">купить</button>
+                                        <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                    </div>
+                                </div>
+                                <div class="lider__carousel__card">
+                                        <div class="lider__carousel__item">
+                                            <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                            <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                                            <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                            <button class="lider__carousel__item-button button-red">купить</button>
+                                            <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                        </div>
+                                    </div>
+                                    <div class="lider__carousel__card">
+                                        <div class="lider__carousel__item">
+                                            <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                            <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                                            <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                            <button class="lider__carousel__item-button button-red">купить</button>
+                                            <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                        </div>
+                                    </div>
+                                    <div class="lider__carousel__card">
+                                            <div class="lider__carousel__item">
+                                                <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                                <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                                                <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                                <button class="lider__carousel__item-button button-red">купить</button>
+                                                <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                            </div>
+                                        </div>
+                                        <div class="lider__carousel__card">
+                                            <div class="lider__carousel__item">
+                                                <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                                <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                                                <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                                <button class="lider__carousel__item-button button-red">купить</button>
+                                                <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                            </div>
+                                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__new">
+                <div class="lider">
+                    <div class="lider__heading">
+                        <button class="lider__heading-button lider__heading-button-2">скидки и акции</button>
+                    </div>
+                    <div class="lider__carousel 4-items">
+                        <div class="lider__carousel__card">
+                            <div class="lider__carousel__item">
+                                <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                                <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                <button class="lider__carousel__item-button button-red">купить</button>
+                                <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                            </div>
+                        </div>
+                        <div class="lider__carousel__card">
+                            <div class="lider__carousel__item">
+                                <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                                <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                <button class="lider__carousel__item-button button-red">купить</button>
+                                <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                            </div>
+                        </div>
+                        <div class="lider__carousel__card">
+                                <div class="lider__carousel__item">
+                                    <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                    <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                                    <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                    <button class="lider__carousel__item-button button-red">купить</button>
+                                    <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                </div>
+                            </div>
+                            <div class="lider__carousel__card">
+                                <div class="lider__carousel__item">
+                                    <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                    <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                                    <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                    <button class="lider__carousel__item-button button-red">купить</button>
+                                    <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                </div>
+                            </div>
+                            <div class="lider__carousel__card">
+                                    <div class="lider__carousel__item">
+                                        <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                        <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                                        <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                        <button class="lider__carousel__item-button button-red">купить</button>
+                                        <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                    </div>
+                                </div>
+                                <div class="lider__carousel__card">
+                                    <div class="lider__carousel__item">
+                                        <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                        <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                                        <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                        <button class="lider__carousel__item-button button-red">купить</button>
+                                        <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                    </div>
+                                </div>
+                                <div class="lider__carousel__card">
+                                        <div class="lider__carousel__item">
+                                            <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                            <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                                            <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                            <button class="lider__carousel__item-button button-red">купить</button>
+                                            <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                        </div>
+                                    </div>
+                                    <div class="lider__carousel__card">
+                                        <div class="lider__carousel__item">
+                                            <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                            <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                                            <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                            <button class="lider__carousel__item-button button-red">купить</button>
+                                            <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                        </div>
+                                    </div>
+                                    <div class="lider__carousel__card">
+                                            <div class="lider__carousel__item">
+                                                <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                                <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                                                <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                                <button class="lider__carousel__item-button button-red">купить</button>
+                                                <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                            </div>
+                                        </div>
+                                        <div class="lider__carousel__card">
+                                            <div class="lider__carousel__item">
+                                                <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                                <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                                                <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                                <button class="lider__carousel__item-button button-red">купить</button>
+                                                <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                            </div>
+                                        </div>
+                                        <div class="lider__carousel__card">
+                                                <div class="lider__carousel__item">
+                                                    <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                                    <img src="img/machine-1.jpg" alt="" class="lider__carousel__item-photo">
+                                                    <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                                    <button class="lider__carousel__item-button button-red">купить</button>
+                                                    <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                                </div>
+                                            </div>
+                                            <div class="lider__carousel__card">
+                                                <div class="lider__carousel__item">
+                                                    <h3 class="lider__carousel__item-heading">швейная машина jaguar cinderella</h3>
+                                                    <img src="img/machine-2.jpg" alt="" class="lider__carousel__item-photo">
+                                                    <div class="lider__carousel__item-price">Цена: <span class="big-red-text">150 616 руб.</span></div>
+                                                    <button class="lider__carousel__item-button button-red">купить</button>
+                                                    <button class="lider__carousel__item-button button-yellow">купить в 1 клик</button>
+                                                </div>
+                                            </div>
+                    </div>
+                </div>
+    </section>
+
+    <section class="section__offer">
+        <h1 class="heading__primary">
+            <span class="heading__primary-text">что мы можем вам предложить?</span>
+        </h1>
+
+        <div class="offer">
+            <div class="row">
+                <div class="col-1-of-3">    
+                    <div class="offer__item">
+                        <img src="img/menu-1.jpg" alt="" class="offer__item-icon">
+                        <div class="offer__item-text">
+                            <h2 class="heading__secondary uppercase">у нас есть все, что вам нужно</h2>
+                            <ul class="offer__item-menu">
+                                <li class="offer__item-menu-list">Вы всегда найдете то что хотели, если посетите наш магазин</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="offer__item">
+                        <img src="img/menu-2.jpg" alt="" class="offer__item-icon">
+                        <div class="offer__item-text">
+                            <h2 class="heading__secondary uppercase">предложение эксклюзивного товара</h2>
+                            <ul class="offer__item-menu">
+                                <li class="offer__item-menu-list">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel et fuga soluta atque provident distinctio,
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="offer__item">
+                        <img src="img/menu-3.jpg" alt="" class="offer__item-icon">
+                        <div class="offer__item-text">
+                            <h2 class="heading__secondary uppercase">консультируем круглосуточно - ценим каждого покупателя</h2>
+                            <ul class="offer__item-menu">
+                                <li class="offer__item-menu-list">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit autem facere quas maxime doloribus nesciunt
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="offer__item">
+                        <img src="img/menu-4.jpg" alt="" class="offer__item-icon">
+                        <div class="offer__item-text">
+                            <h2 class="heading__secondary uppercase">частое обновление ассортимента</h2>
+                            <ul class="offer__item-menu">
+                                <li class="offer__item-menu-list">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita reiciendi
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="offer__item">
+                        <img src="img/menu-5.jpg" alt="" class="offer__item-icon">
+                        <div class="offer__item-text">
+                            <h2 class="heading__secondary uppercase">у нас антикризисные цены</h2>
+                            <ul class="offer__item-menu">
+                                <li class="offer__item-menu-list">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel in ducimus culpa 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="offer__item">
+                        <img src="img/menu-6.jpg" alt="" class="offer__item-icon">
+                        <div class="offer__item-text">
+                            <h2 class="heading__secondary uppercase">Тестируем машинки в вашем присутствии</h2>
+                            <ul class="offer__item-menu">
+                                <li class="offer__item-menu-list">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium quas nam numquam modi corrupti aspernatur dignissimos, 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__faq">
+        <div class="faq__item">
+            <input type="checkbox" id="checkbox-toggle-1" class="faq__checkbox">
+            <label for="checkbox-toggle-1" class="faq__heading">как найти и купить лучшую технику?</label>
+            <div class="faq__desc">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem laborum tempore magni est esse beatae? Quas nihil ipsa maiores illum, nam accusantium soluta assumenda nobis dolor quod ratione deserunt sapiente!
+                <br><br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit totam hic accusamus similique velit minus, quidem porro impedit quos beatae omnis reprehenderit praesentium iure placeat dicta dolores quisquam fugiat cum.
+                <br><br>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium incidunt nesciunt assumenda perferendis autem, expedita delectus voluptate enim id hic exercitationem, maxime beatae suscipit. Sed odio exercitationem sint iste eveniet!
+            </div>
+        </div>
+        <div class="faq__item">
+                <input type="checkbox" id="checkbox-toggle-2" class="faq__checkbox">
+                <label for="checkbox-toggle-2" class="faq__heading">как выбрать подходящий товар по выгодной цене?</label>
+                <div class="faq__desc">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem laborum tempore magni est esse beatae? Quas nihil ipsa maiores illum, nam accusantium soluta assumenda nobis dolor quod ratione deserunt sapiente!
+                    <br><br>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit totam hic accusamus similique velit minus, quidem porro impedit quos beatae omnis reprehenderit praesentium iure placeat dicta dolores quisquam fugiat cum.
+                    <br><br>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium incidunt nesciunt assumenda perferendis autem, expedita delectus voluptate enim id hic exercitationem, maxime beatae suscipit. Sed odio exercitationem sint iste eveniet!
+                </div>
+            </div>
+
+            <div class="faq__item">
+                    <input type="checkbox" id="checkbox-toggle-3" class="faq__checkbox">
+                    <label for="checkbox-toggle-3" class="faq__heading">швейные машинки: какими бывают и как различаются?</label>
+                    <div class="faq__desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem laborum tempore magni est esse beatae? Quas nihil ipsa maiores illum, nam accusantium soluta assumenda nobis dolor quod ratione deserunt sapiente!
+                        <br><br>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit totam hic accusamus similique velit minus, quidem porro impedit quos beatae omnis reprehenderit praesentium iure placeat dicta dolores quisquam fugiat cum.
+                        <br><br>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium incidunt nesciunt assumenda perferendis autem, expedita delectus voluptate enim id hic exercitationem, maxime beatae suscipit. Sed odio exercitationem sint iste eveniet!
+                    </div>
+                </div>
+    </section>
+
+    <div class="navigation back-grey">
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item-2"><a href="#" class="navigation__link">о нас</a></li>
+                    <li class="navigation__item-2"><a href="#" class="navigation__link">акции и скидки</a></li>
+                    <li class="navigation__item-2"><a href="#" class="navigation__link">полезное</a></li>
+                    <li class="navigation__item-2"><a href="#" class="navigation__link">гарантия</a></li>
+                    <li class="navigation__item-2"><a href="#" class="navigation__link">доставка</a></li>
+                    <li class="navigation__item-2"><a href="#" class="navigation__link">оплата</a></li>
+                    <li class="navigation__item-2"><a href="#" class="navigation__link">наши магазины</a></li>
+                    <li class="navigation__item-2"><a href="#" class="navigation__link">контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    <section class="section__info">
+        <div class="row">
+            <div class="col-1-of-4">
+                <h3 class="heading__tertiary">акции</h3>
+                <ul class="info__list">
+                    <li class="info__list-item">Дарим 10%!</li>
+                    <li class="info__list-item">Рассрочка 0%</li>
+                    <li class="info__list-item">Дешевле не бываетю</li>
+                    <li class="info__list-item">Утилизация</li>
+                    <li class="info__list-item">Волшебные условия</li>
+                    <li class="info__list-item">Всегда онлайн!</li>
+                    <li class="info__list-item">Скидка по карте!</li>
+                    <li class="info__list-item">Скидки вокруг, бери подруг!</li>
+                </ul>
+            </div>
+            <div class="col-1-of-4">
+                <h3 class="heading__tertiary">ИНФОРмация</h3>
+                <ul class="info__list">
+                    <li class="info__list-item">Конкурсы</li>
+                    <li class="info__list-item">Партнерам</li>
+                    <li class="info__list-item">Кредит</li>
+                    <li class="info__list-item">Обмен и возврат</li>
+                    <li class="info__list-item">Карта сайта</li>
+                </ul>
+            </div>
+            <div class="col-1-of-4">
+                &nbsp;
+            </div>
+            <div class="col-1-of-4">
+                <h3 class="heading__tertiary">полезное</h3>
+                <ul class="info__list">
+                    <li class="info__list-item">Частые вопросы</li>
+                    <li class="info__list-item">Статьи</li>
+                    <li class="info__list-item">Инстукции</li>
+                    <li class="info__list-item">Тест драйвы и обзоры</li>
+                </ul>
+            </div>
+        </div>
+        <div class="info__warning">
+            <p>
+              Внимание! Данный HTML/CSS(SCSS) код был написан исключительно в целях выполнения тестового задания. Любое использование этого кода целиком, или его куска должно быть согласовано с владельцем (Амелин Артем Александрович). По всем вопросам обращаться по почте artyom.amelin@gmail.com 
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__menu">
+            <div class="row">
+                <div class="col-1-of-4"><div class="footer__logo">&nbsp;</div></div>
+                <div class="col-2-of-4">
+                    <ul class="footer__list">
+                        <li class="footer__list-item">Реквизиты:</li>
+                        <li class="footer__list-item">Название организации: ООО "Текстиль Торг Регион"</li>
+                        <li class="footer__list-item">E-mail: info@textiletorg.ru</li>
+                        <li class="footer__list-item">ОГРН: 32345355535345</li>
+                        <li class="footer__list-item">ИНН: 23429032478</li>
+                    </ul>
+                </div>
+                <div class="col-1-of-4">
+                        <div class="social-media2">
+                            <div class="social-media__icon-1 social-media2__icon"></div>
+                            <div class="social-media__icon-2 social-media2__icon"></div>
+                            <div class="social-media__icon-3 social-media2__icon"></div>
+                            <div class="social-media__icon-4 social-media2__icon"></div>
+                            <div class="social-media__icon-5 social-media2__icon"></div>
+                            <div class="social-media__icon-6 social-media2__icon"></div>
+                            <div class="social-media__icon-7 social-media2__icon"></div>
+                            <div class="social-media__icon-8 social-media2__icon"></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rights">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur in quae voluptates autem, dolorem a? Nesciunt eligendi non perspiciatis blanditiis provident distinctio, esse assumenda voluptate. Exercitationem magni maxime perferendis blanditiis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam illum, asperiores unde laudantium architecto error animi reiciendis nemo quam! Ut suscipit beatae, id dolorem cupiditate quo modi esse? Maiores, hic.
+            </p>
+        </div>
+        <hr>
+        <div class="bottom-menu">
+            <div class="bottom-menu-1">дарим <span class="big-red-text">подарок</span> при заказе через корзину</div>
+            <div class="bottom-menu-2">Оформите заказ онлайн и получите подарок прямо сейчас!</div>
+        </div>
+    </footer>
+
+    <div class="social-media">
+        <div class="social-media__icon-1 social-media__icon"></div>
+        <div class="social-media__icon-2 social-media__icon"></div>
+        <div class="social-media__icon-3 social-media__icon"></div>
+        <div class="social-media__icon-4 social-media__icon"></div>
+        <div class="social-media__icon-5 social-media__icon"></div>
+        <div class="social-media__icon-6 social-media__icon"></div>
+        <div class="social-media__icon-7 social-media__icon"></div>
+        <div class="social-media__icon-8 social-media__icon"></div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.single-item').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            });
+        });
+      </script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.4-items').slick({
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        dots: false,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        });
+    });
+  </script>
+</body>
+</html>

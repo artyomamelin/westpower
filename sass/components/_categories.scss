@@ -1,0 +1,45 @@
+.categories {
+    margin-top: 5rem;
+
+    &__item {
+        margin-bottom: 5rem;
+        @include clearfix;
+
+        &:hover {
+            color: $color-secondary;
+            cursor: pointer;
+        }
+
+        &-icon {
+            position: relative;
+            float: left;
+            width: 28%;
+            margin-right: 2rem;
+            
+            &-2 {
+                width: 20%;
+                margin-right: 4rem;
+            }
+
+            &-3 {
+                width: 6.3rem;
+                height: auto;
+            }
+        }
+
+        &-text {
+            position: relative;
+            float: left;
+            max-width: 63%;
+        }
+
+        &-menu {
+
+            list-style: none;
+
+            &-list {
+                margin-bottom: .3rem;
+            }
+        }
+    }
+}

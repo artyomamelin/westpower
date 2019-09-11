@@ -1,0 +1,158 @@
+.social-media {
+    position: fixed;
+    top: 30rem;
+    right: 5rem;
+    width: 3rem;
+
+    &__icon {
+        paDDING: .2REM;
+        width: 3rem;
+        height: 3rem;
+
+        &-1 {
+
+        background-image: url("../../img/ig-icon.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+
+            &:HOVER {
+                background-image: url("../../img/ig-icon.jpg"),
+                linear-gradient( to right bottom,
+                rgba($color-primary-light, 0.8), 
+                rgba($color-primary, 0.8));
+                background-blend-mode: luminosity;
+                background-size: cover;
+                cursor: pointer;
+            }
+        }
+
+        &-2 {
+
+            background-image: url("../../img/fb-icon.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+    
+                &:HOVER {
+                    background-image: url("../../img/fb-icon.jpg"),
+                    linear-gradient( to right bottom,
+                    rgba($color-primary-light, 0.8), 
+                    rgba($color-primary, 0.8));
+                    background-blend-mode: luminosity;
+                    background-size: cover;
+                    cursor: pointer;
+                }
+            }
+
+        &-3 {
+
+                background-image: url("../../img/vk-icon.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+        
+                    &:HOVER {
+                        background-image: url("../../img/vk-icon.jpg"),
+                        linear-gradient( to right bottom,
+                        rgba($color-primary-light, 0.8), 
+                        rgba($color-primary, 0.8));
+                        background-blend-mode: luminosity;
+                        background-size: cover;
+                        cursor: pointer;
+                    }
+                }
+
+        &-4 {
+
+                background-image: url("../../img/twitter-icon.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+            
+                        &:HOVER {
+                            background-image: url("../../img/twitter-icon.jpg"),
+                            linear-gradient( to right bottom,
+                            rgba($color-primary-light, 0.8), 
+                            rgba($color-primary, 0.8));
+                            background-blend-mode: luminosity;
+                            background-size: cover;
+                            cursor: pointer;
+                        }
+                    }
+
+        &-5 {
+
+                        background-image: url("../../img/ok-icon.jpg");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                
+                            &:HOVER {
+                                background-image: url("../../img/ok-icon.jpg"),
+                                linear-gradient( to right bottom,
+                                rgba($color-primary-light, 0.8), 
+                                rgba($color-primary, 0.8));
+                                background-blend-mode: luminosity;
+                                background-size: cover;
+                                cursor: pointer;
+                            }
+                        }
+
+        &-6 {
+
+                            background-image: url("../../img/yt-icon.jpg");
+                            background-position: center;
+                            background-repeat: no-repeat;
+                    
+                                &:HOVER {
+                                    background-image: url("../../img/yt-icon.jpg"),
+                                    linear-gradient( to right bottom,
+                                    rgba($color-primary-light, 0.8), 
+                                    rgba($color-primary, 0.8));
+                                    background-blend-mode: luminosity;
+                                    background-size: cover;
+                                    cursor: pointer;
+                                }
+                            }
+
+        &-7 {
+
+                                background-image: url("../../img/lj-icon.jpg");
+                                background-position: center;
+                                background-repeat: no-repeat;
+                        
+                                    &:HOVER {
+                                        background-image: url("../../img/lj-icon.jpg"),
+                                        linear-gradient( to right bottom,
+                                        rgba($color-primary-light, 0.8), 
+                                        rgba($color-primary, 0.8));
+                                        background-blend-mode: luminosity;
+                                        background-size: cover;
+                                        cursor: pointer;
+                                    }
+                                }
+
+        &-8 {
+
+                                    background-image: url("../../img/mail-icon.jpg");
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                            
+                                        &:HOVER {
+                                            background-image: url("../../img/mail-icon.jpg"),
+                                            linear-gradient( to right bottom,
+                                            rgba($color-primary-light, 0.8), 
+                                            rgba($color-primary, 0.8));
+                                            background-blend-mode: luminosity;
+                                            background-size: cover;
+                                            cursor: pointer;
+                                        }
+                                    }
+    }
+}
+
+.social-media2 {
+
+    &__icon {
+        paDDING: .2REM;
+        width: 3rem;
+        height: 3rem;
+        float: left;
+    }
+}

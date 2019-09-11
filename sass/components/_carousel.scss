@@ -1,0 +1,49 @@
+.carousel {
+    &__item {
+        position: relative;
+        display: flex;
+        align-content: space-between; 
+        background-image: linear-gradient(to bottom,
+        $color-white,
+        $color-grey-light); 
+        
+        &-photo {
+            position: relative;
+            float: right;
+            width: 40rem;
+            height: 30rem;
+            background-image: url(../../img/carousel-photo.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom right;
+        }
+
+        &-text {
+            // position: relative;
+            float: left;
+            width: 40rem;
+            height: 20rem; 
+            text-align: center;
+            @include absCenter;
+            left: 30%;
+
+            &-heading {
+                text-align: center;
+                color: $color-secondary;
+                font-size: 2.4rem;
+                font-weight: 900;
+                margin-bottom: 5rem;
+            }
+
+            &-paragraph {
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+
+.slick-prev, .slick-next { 
+    background: $color-grey-light !important;
+}
